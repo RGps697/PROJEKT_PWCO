@@ -23,13 +23,13 @@ include "connection.php";
         </form>
 
         <?php
-        //$stmt = $mysqli->query("SELECT tasks.id, tasks.taskDesc FROM tasks");
+        $stmt = $mysqli->query("SELECT tasks.id, tasks.taskDesc FROM tasks");
 
-        //echo('<table><tr><th>ID</th><th>Opis</th></tr>');
-        //while($row = $stmt->fetch_assoc()){
-        //    echo('<tr><td>' . $row['id'] . '</td><td>' . $row['taskDesc'] . '</td></tr>');
-        //}
-        //echo('</table><br />');
+        echo('<table><tr><th>ID</th><th>Opis</th></tr>');
+        while($row = $stmt->fetch_assoc()){
+            echo('<tr><td>' . $row['id'] . '</td><td>' . $row['taskDesc'] . '</td></tr>');
+        }
+        echo('</table><br />');
 
         ?>
     </body>
