@@ -6,7 +6,7 @@ if ($mysqli->connect_error) {
   die("Connection failed: " . $mysqli->connect_error);
 }
 else{
-    echo "connected, hello world!!!!";
+    //echo "connected, hello world!!!!";
 }
 
 ?>

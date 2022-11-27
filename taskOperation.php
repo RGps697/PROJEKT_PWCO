@@ -17,5 +17,5 @@ else if(isset($_POST['update'])){
 }
 
 $mysqli->close();
-
+header("Location: index.php");
 ?>
