@@ -33,7 +33,7 @@ Aplikacja "To Do List" pozwalająca na dodawanie, usuwanie i edytowanie zadań p
 4. Ustawienia platformy:
 ![image](https://user-images.githubusercontent.com/72736232/205345111-248bb86f-d482-4035-a4ba-9ff44fafe456.png)
 5. Wybranie opcji "Configure more options".
-6. W panelu "Security" wybrać opcję "Edit" oraz dodać wcześniej utworzony klucz "EC2 key pair" i zapisanie zmian.
+6. W panelu "Security" wybranie opcji "Edit" oraz dodanie wcześniej utworzonego klucza "EC2 key pair", a następnie zapisanie zmian.
 7. Zatwierdzenie utworzenia środowiska przez "Create environment" na dole formularza.
 
 ### Utworzenie CI/CD CodePipeline
