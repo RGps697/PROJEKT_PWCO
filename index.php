@@ -6,12 +6,10 @@ include "connection.php";
 
 <html>
     <head>
-    
     </head> 
 
     <body>
         <br/>
-
         <form method="post" action="taskOperation.php">
         <label>Nowe zadanie:</label><br/>
         <input type="text" name="task"></input><br />
