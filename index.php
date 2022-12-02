@@ -6,10 +6,14 @@ include "connection.php";
 
 <html>
     <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     </head> 
 
     <body>
         <br/>
+        <h1>ToDoApp</h1>
+        <br/>
+
         <form method="post" action="taskOperation.php">
         <label>Nowe zadanie:</label><br/>
         <input type="text" name="task"></input><br />
