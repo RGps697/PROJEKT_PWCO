@@ -73,7 +73,7 @@ Wygenerowanie klucza i certyfikatu (Najistotniejszym polem jest Common Name, w k
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx.key -out /etc/ssl/certs/nginx.crt
 ![poprawa](https://user-images.githubusercontent.com/72736232/207428063-8be56d9e-1da7-4a1f-90ac-02b0d2bfbfc4.png)
 
-![image](https://user-images.githubusercontent.com/72736232/205354710-7783cc70-9f09-4517-bc68-f188f8b1fba5.png)
+
 **Zawartość plików skopiować (potrzebne do konfiguracji HTTPS w następnym kroku)**
 
 W panelu "Load Balancers" wybranie rekordu, który posiada nasłuchiwacze do aplikacji, a następnie dodanie nowego nasłuchiwacza. Przy konfiguracji wybrać HTTPS oraz port 443, wraz z dodaniem certyfikatu do ACM z kluczem oraz certyfikatem wygenerowanym przy połączeniu SSH do instancji EC2:
