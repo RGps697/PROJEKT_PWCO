@@ -71,6 +71,7 @@ Połączenie do instancji przez wiersz poleceń: ssh -i C:\ec2appkey.pem ec2-use
 Instalacja OpenSSL: sudo apt-get install openssl
 Wygenerowanie klucza i certyfikatu (Najistotniejszym polem jest Common Name, w którym powinien znaleźć się publiczny adres IP instancji EC2): 
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx.key -out /etc/ssl/certs/nginx.crt
+![poprawa](https://user-images.githubusercontent.com/72736232/207428063-8be56d9e-1da7-4a1f-90ac-02b0d2bfbfc4.png)
 
 ![image](https://user-images.githubusercontent.com/72736232/205354710-7783cc70-9f09-4517-bc68-f188f8b1fba5.png)
 **Zawartość plików skopiować (potrzebne do konfiguracji HTTPS w następnym kroku)**
